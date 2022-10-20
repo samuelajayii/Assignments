@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    margin: auto;
+    margin-top: 15vh;
+    height: 75%;
+    width: 70%;
+}
+button{
+    margin-top: 110px;
+    padding: 13px 35px;
+    border: 1px transparent solid;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: white;
+}
+button:hover{
+    background-color: rgb(255, 245, 245);
+}
+button:active{
+  cursor: auto;
+}
+.item1{
+    background-color: hsl(31, 77%, 52%);
+}
+.item2{
+    background-color: hsl(184, 100%, 22%)
+}
+.item3{
+    background-color: hsl(179, 100%, 13%)
+}
+.card{
+    padding: 100px 50px;
+}
+h1{
+    margin-bottom: 30px;
+}
+p{
+    line-height: 30px;
+}
+.texts{
+    margin-left: -15px;
+}
+.button-one{
+    color: rgb(238, 171, 47);
+}
+.button-two{
+    color: rgb(83, 120, 134);
+}
+.button-three{
+    color: rgb(53, 66, 53);
+}
+img{
+  width: 80px;
+}
+a{
+  display: flex;
+  
+}
+@media only screen and (max-width: 650px){
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+    a{
+      display: flex;
+    
+    } 
+}
